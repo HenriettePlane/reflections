@@ -1,0 +1,4 @@
+lesson_2_reflections.txt
+
+What happens when you initialize a repository? Why do you need to do it?
+It sets up a tracking system to track changes between files. It can't look back into what happened before, it can only start tracking what we have right now.
