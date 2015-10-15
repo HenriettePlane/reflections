@@ -7,3 +7,10 @@ If Git would automatically stay up to date, the point of having a remote
 repository would only be to serve as a complete back-up. It would not
 work for collaborating with others, because auto-back-up could cause
 a lot of merging conflicts in that case. It also takes control of the project away from the owner and transfers it to the version control system or to other random commiters.
+
+3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Fork => when you want to make your own version of a project you don't have acces to.
+Clone => when you're collaborating on a project.
+Branche => when you make a change to your project and don't want to affect the master.
+
+
