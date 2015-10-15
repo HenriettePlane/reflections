@@ -1,0 +1,37 @@
+I have learned to use diff -u <file old> <file new> in the command line
+to see the differences between two files.
+This course will take me 24 hours but I hope I can finish it relatively
+ quickly so I can move on to developing my own app.
+I"m sure at some point they will reveal the magic that is git that does
+ the steps they make us do manually automatic.
+Looking at diff helped me to spot the bug because it revealed the 
+old and new lines of code, which is where the bug was introduced
+
+Having easy acces to earlier versions of a file makes 
+you a better programmer because
+it allows you to see your mistakes and 
+learn from them.
+
+Pro's and cons of manual committing versus automatic:
+Pro: You don't save small and logically inconsisten changes
+You understand what you saved, especially when you've added
+a commit message.
+Cons: If you're a lazy committer you might not save enough
+If your system crashes and you haven't committed in a while
+you might lose a lot of code.
+
+Git tracks multiple files in one commit because it is made
+for version control of programs, rather than files that contain 
+static information.
+
+You can use git log to view the history of commits you have made.
+It shows you the name of each commit along with the commit message.
+Git diff tells you the difference between two specific commits so
+you can find your bugs.
+
+How might using version control make you more confident to make changes that could break something?
+With version control, you know that you can always go back to earlier versions or find what went wrong with your latest try.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to use git for my personal project:
+Building a food diary app :)
