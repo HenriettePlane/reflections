@@ -13,4 +13,19 @@ Fork => when you want to make your own version of a project you don't have acces
 Clone => when you're collaborating on a project.
 Branche => when you make a change to your project and don't want to affect the master.
 
+4. What is the benefit of having a copy of the last known state of the 
+remote stored locally?
+It allows you to stay close to the origin you're working with,
+so you can merge into it and not diverge to far from the repository
+on github. Otherwise, merging might cause a lot of confusing conflicts.
 
+5. How would you collaborate without using Git or GitHub? What would be 
+easier, and what would be harder?
+Collaborating without github would be easier if I wouldn't want to learn
+git to collaborate. For example, when I'm writing a short essay with 
+someone and we have two clearly seperated parts to write. Then it
+would be easier not to use github. For anything more complex or less 
+modular, github would be easier.
+
+6. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Changes in master should be small and simple. Changes on branches make sense if you're collaborating, but working on logically distinct parts of the repository.
